@@ -33,7 +33,7 @@ while i < len(supplierNames):
         else:
             break
     if wordMatches == len(supplierNames[i].split()):
-        print supplierNames[i]
+        print "This invoice belongs to", supplierNames[i]
         break
     else:
         wordMatches = 0
